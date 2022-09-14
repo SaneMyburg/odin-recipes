@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    margin: 50px 100px 50px 100px
+    
+}
+
+ul {
+    display: inline-block;
+}
+
+ol {
+    display: inline-block;
+
+}
+
+img {
+    height: auto;
+    width: 25%;
+}
+
+#cooking-instructions {
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+}
