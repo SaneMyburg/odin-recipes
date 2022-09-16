@@ -16,16 +16,26 @@ img {
     background-color:rgb(222, 239, 253) ;
     border-top: 1px slategray solid;
     border-bottom: 1px slategray solid;
-    
+    justify-content: space-around;       
 }
-.header-items {
+.links {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
     
 }
 .header img {
     height: auto;
     width: 50px;
-    border-radius: 50%;
-    
+    border-radius: 50%;    
+}
+.published {
+    display: flex;   
 }
 .page-content {
     background-color: rgb(222, 239, 253);
