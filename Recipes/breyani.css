@@ -29,6 +29,8 @@ img {
     color: black;
     font-weight: bold;
     text-decoration: none;
+    justify-content: end;
+   /* width: 100px;*/
     
 }
 a:hover {
@@ -38,19 +40,19 @@ a:hover {
     height: auto;
     width: 50px;
     border-radius: 50%;    
-}
-.published {
-    display: flex; 
+ 
 }
 .page-content {
     background-color: rgb(222, 239, 253);
     width: 60%;
     margin: auto;
+    padding-block-start: 2px;
+    margin-top: 10px;
        
 }
 .image {
-    display: flex;
-    padding-left: 125px;
+    /*display: flex;*/
+    padding-left: 150px;
 }
 
 
