@@ -1,25 +1,25 @@
+* {
+    box-sizing: border-box;
+}
 body {
+    background-color: rgb(245, 245, 245);
+}
+h1 {
     text-align: center;
-    margin: 50px 100px 50px 100px
-    
 }
-
-ul {
-    display: inline-block;
-}
-
-ol {
-    display: inline-block;
-
-}
-
 img {
     height: auto;
-    width: 25%;
+    width: 750px;
+}
+.page-content {
+    background-color: rgb(222, 239, 253);
+    width: 50%;
+    margin: auto;
+
 }
 
-#cooking-instructions {
-    width: 500px;
-    margin: auto;
-    box-sizing: border-box;
+
+.ingredients-sauce {
+    display: flex;
+
 }
