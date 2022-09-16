@@ -16,10 +16,11 @@ img {
     background-color:rgb(222, 239, 253) ;
     border-top: 1px slategray solid;
     border-bottom: 1px slategray solid;
-    justify-content: center;       
+    /*justify-content: center;*/
+    padding: 5px;       
 }
 .header-items {
-    width: 900px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
 }
@@ -29,9 +30,10 @@ img {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    justify-content: end;
-   /* width: 100px;*/
-    
+    justify-content: end;    
+}
+.child {
+    flex: 0 0 100px
 }
 a:hover {
     text-decoration: underline;   
