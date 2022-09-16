@@ -11,6 +11,18 @@ img {
     height: auto;
     width: 750px;
 }
+.header {
+    display: flex;
+    padding: 5px;
+    border-top: 1px slategray solid;
+    border-bottom: 1px slategray solid;
+}
+.header img {
+    height: auto;
+    width: 50px;
+    border-radius: 50%;
+    
+}
 .page-content {
     background-color: rgb(222, 239, 253);
     width: 50%;
