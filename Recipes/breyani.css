@@ -13,9 +13,15 @@ img {
 }
 .header {
     display: flex;
-    padding: 5px;
+    background-color:rgb(222, 239, 253) ;
     border-top: 1px slategray solid;
     border-bottom: 1px slategray solid;
+}
+.header-items {
+    
+}
+
+    
 }
 .header img {
     height: auto;
@@ -26,8 +32,7 @@ img {
 .page-content {
     background-color: rgb(222, 239, 253);
     width: 50%;
-    margin: auto;
-
+    margin: auto;   
 }
 
 
