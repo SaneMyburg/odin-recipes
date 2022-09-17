@@ -16,24 +16,25 @@ img {
     background-color:rgb(222, 239, 253) ;
     border-top: 1px slategray solid;
     border-bottom: 1px slategray solid;
-    /*justify-content: center;*/
-    padding: 5px;       
+    padding: 5px; 
+    justify-content: space-between;      
 }
-.header-items {
-    width: 1000px;
+.start-items {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
-.links {
+ .end-items div {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+}
+a {
     display: flex;
     align-items: center;
     color: black;
     font-weight: bold;
-    text-decoration: none;
-    justify-content: end;    
-}
-.child {
-    flex: 0 0 100px
+    text-decoration: none;   
 }
 a:hover {
     text-decoration: underline;   
